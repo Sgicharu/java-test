@@ -1,14 +1,16 @@
 package Util;
 
 public class Validator {
-    public boolean operationValidator(){
-
+    public boolean operationValidator(String operation){
+// two operations ->encode, decode
+        boolean isValid = operation.equalsIgnoreCase( anotherString:"encode")
+        operation.equalsIgnoreCase( anotherString: "decode");
     }
-    public boolean MessageValidator(){
+    public boolean MessageValidator(String message){
         return true;
 
     }
-    public boolean KeyValidator(){
+    public boolean KeyValidator(int key){
         return true;
 
     }
