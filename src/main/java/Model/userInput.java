@@ -1,14 +1,14 @@
 package Model;
 
 public class userInput {
-    private string operation;
+    private String operation;
     private String message;
     private int key;
-    public string getOperation() {
+    public String getOperation() {
         return operation;
     }
 
-    public void setOperation(string operation) {
+    public void setOperation( String operation) {
         this.operation = operation;
     }
 
